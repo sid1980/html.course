@@ -1,0 +1,24 @@
+body { 
+    background-color: #555555}
+
+h1{
+    text-align: center;
+    background-color: powderblue;
+    font-family: verdana;
+}
+
+p {
+    padding: 30px;
+}
+
+.container {
+    width: 200px;
+    height: 120px;
+    display: inline;
+}
+
+.container img{
+    width: 50%;
+    height: auto;
+    object-fit: cover;
+}
