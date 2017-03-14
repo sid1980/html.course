@@ -1,0 +1,34 @@
+body{
+    height: 1500px;
+}
+.holder{
+    display: inline;
+    position:absolute;
+    }
+#obvodniy{
+    left: 172px;
+    top: 185px;}
+
+#korabl{
+    left:172px;
+    top: 420px;}
+
+#enemy{
+    left: 172px;
+    top: 653px;}
+#dvor {left: 469px;  top:185px;}
+#krokus {left: 470px;  top:655px;}
+#cvetok {left: 470px;  top: 887px;}
+#machine {left: 767px; top: 185px; z-index: 0;}
+#pochki {left: 767px;  top: 420px; z-index: 0;}
+#kaplia {left: 767px;  top: 653px;}
+
+.footer {
+    position: fixed;
+    text-align: right;
+    font-size: 75%;
+    margin-top: 50px; 
+    margin-bottom: 10px;
+    bottom:0;left:0;
+    right:0;height:30px;
+    font-size: 12pt;}
