@@ -1,0 +1,15 @@
+p{
+    text-align:justify;
+    padding: 0px 30px 30px 30px;
+    font-size: 1.2em;
+}
+
+P:first-letter {
+    font-family: "Times New Roman", Times, serif; 
+    font-size: 200%; 
+   }
+
+h1{
+   padding: 70px
+   margin-top: 10px;
+}
