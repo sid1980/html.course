@@ -1,6 +1,6 @@
 header {
     height: 954px;
-    background: url("/assets/img/masthead.jpg") center;
+    background: url("../../assets/img/masthead.jpg") center;
     background-size: cover;
     position: relative;
     // padding-bottom: 54px;
@@ -19,7 +19,7 @@ header {
     //width: 609px;
     z-index: 2;
 }
-#header_text p{
+.header_text p{
     color: aliceblue;
     display: inline-block;
 }
@@ -31,7 +31,7 @@ header {
     //left: 47.1614%; //905.5px;
     top: 201px;
     z-index: 1;
-    background: url("/assets/img/iPhone.png") center;
+    background: url("../../assets/img/iPhone.png") center;
     background-size: cover;
     position:relative;
     float:left;
