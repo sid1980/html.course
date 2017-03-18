@@ -1,0 +1,31 @@
+*{
+    margin: 0px;
+}
+header {
+    height: 500px;
+    background: url("masthead.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; <!-- картинка вписывается - cover -->
+    background-position: bottom right;
+    background-position: 50% 50%;
+}
+
+.intro{
+    padding-top: 100px;
+    text-align: center;
+}
+
+.intro__header{
+    color: #fff;
+    text-transform: uppercase;
+}
+.intro__link{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: Arial;
+    border: 2px solid;
+    border-bottom-color: #fff;
+    
+    
+}
