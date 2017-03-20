@@ -1,41 +1,46 @@
-header {
-    height: 954px;
-    background: url("../../assets/img/masthead.jpg") center;
-    background-size: cover;
-    position: relative;
-    // padding-bottom: 54px;
-    margin-bottom: 54px;
-    
-    background-color: red;
-    overflow: hidden;
+*{
+    margin: 0px;
+    padding: 0px;
+    // overflow:hidden;
+    // text-overflow:ellipsis;
 }
 
-#header_text{
-    display: inline-block;
-    position: relative;
-    background-color: yellow;
-    left: 21.1458%;
-    top: 354px;
-    //width: 609px;
+header {
+    height: 954px;
+    background-color: red;
+    background: url("../../assets/img/masthead.jpg");
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size:contain;
+    margin-bottom: 54px;
     z-index: 2;
+    //overflow: hidden;
 }
-.header_text p{
+
+.intro{
+    display: inline-block;
+    position: absolute;
+    // background-color: yellow;
+    top: 354px;
+    z-index: 1;
+    
+}
+.intro__text {
+    width: 500px;
     color: aliceblue;
     display: inline-block;
 }
 
-.telephon {
-    display: inline-block;
-    height: 89.5555%; //806px;
-    width: 609px;
-    //left: 47.1614%; //905.5px;
-    top: 201px;
-    z-index: 1;
-    background: url("../../assets/img/iPhone.png") center;
-    background-size: cover;
-    position:relative;
-    float:left;
-    background-color: green;
-    margin-bottom: 0;
+.intro__telephone {
     
+    // height: 89.5555%; //806px;
+    width: 609px;
+    height: 806px;
+    margin-left: 47.1614%; //905.5px;
+    top: 201px;
+    background: url("../../assets/img/iPhone.png");
+    background-repeat: no-repeat;
+    background-size:contain;
+    z-index: 10;
+    float:left;
 }

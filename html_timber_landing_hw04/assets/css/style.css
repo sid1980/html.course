@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+    border: 0px;
+}
+header{
+    height: 640px;
+    background-image: url("../img/bgTop.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+}
+
+.header__logo {
+    float: left;
+    margin-top: 64px;
+    font-size: 5em;
+}
+
+.header__title{
+    margin-top: 263px;
+    font-size: 2em;
+    color: #fff;
+}
+.records{
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+.slogan{
+    display: inline-block;   
+    // width: auto;
+    text-align: center;
+    float: none;
+}
+
+.slogan__header, 
+.slogan__text {
+    text-align: center;
+}
+
+span.slogan__image{
+    text-align: center;
+    float: none;
+}

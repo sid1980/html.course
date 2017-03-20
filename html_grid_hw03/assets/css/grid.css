@@ -4,7 +4,7 @@
 }
 
 .container{
-    width: 192px;
+    width: 1920px;
     margin: auto;
 }
 
@@ -40,3 +40,15 @@
 .col-11{width: 65.7031%; }
 .col-12{width: 79.6875%; }
 
+.offset-1{margin-left: 21.1458%; }
+.offset-2{margin-left: 23.4375%; }
+.offset-3{margin-left: 28.5417%; }
+.offset-4{margin-left: 35.9896%; }
+.offset-5{margin-left: 40.7292%; }
+.offset-6{margin-left: 49.974%; }
+.offset-7{margin-left: 50.8073%; }
+.offset-8{margin-left: 53.1771%; }
+.offset-9{margin-left: 55.7292%; }
+.offset-10{margin-left: 60.7292%; }
+.offset-11{margin-left: 65.7031%; }
+.offset-12{margin-left: 79.6875%; }

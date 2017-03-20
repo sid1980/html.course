@@ -27,3 +27,8 @@ for i,pos in enumerate(col):
                                                '{',
                                                (pos/1920.0)*100,
                                               '}')
+for i,pos in enumerate(col):
+    print ".offset-{}{}margin-left: {:.6}%; {}".format((i+1),
+                                               '{',
+                                               (pos/1920.0)*100,
+                                              '}')
