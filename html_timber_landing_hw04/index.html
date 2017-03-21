@@ -2,9 +2,10 @@
 <html lang="ru">
 <head>
     <title> HTML Home Task</title>
-    <link rel="stylesheet" href="assets/css/normalize.css">
-    <link rel="stylesheet" href="assets/css/grid_12.css">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css"  href="assets/css/fonts.css">
+    <link rel="stylesheet" type="text/css"  href="assets/css/normalize.css">
+    <link rel="stylesheet" type="text/css"  href="assets/css/grid_12.css">
+    <link rel="stylesheet" type="text/css"  href="assets/css/style.css">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 </head>
@@ -15,7 +16,7 @@
                 <div class="header__logo col-2 offset-2">
                     <img src='assets/img/logo.png' alt="Logo ">
                 </div>
-                <div class="header__menu col-3 offset-7">
+                <div class="header__menu col-3 offset-5">
                     <ul>
                         <li>home</li>
                         <li>about</li>
@@ -24,13 +25,15 @@
                         <li>contact</li>
                     </ul>
                 </div>
-                <div class="header__title col-4 offset-2">
-                    <h1> We develop.</h1>
-                </div>
-                <div>
-                    <!--
-                    <img src='assets/img/footer_black.png' class="header_back">
-                    -->
+                <div class="row">
+                    <div class="header__title col-4 offset-2">
+                        <h1> We develop.</h1>
+                    </div>
+                    <div>
+                        <!--
+                        <img src='assets/img/footer_black.png' class="header_back">
+                        -->
+                    </div>
                 </div>
             </div>
         </div>
@@ -39,47 +42,146 @@
     <section class="second_page">
         <div class="container">
         <div class="row">
-            <div class="records col-3 offset-2" id="records__projects">  
+            <div class="records col-4 " id="records__projects">  
                 <h1> 708</h1>
                 <h2> Awesome Projects</h2>
                 <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
                 </p> 
             </div>
-            <div class="records col-3 " id="records__customers"> 
+            <div class="records col-4 " id="records__customers"> 
                 <h1> 12300</h1>
                 <h2> Happy Customers</h2>
                 <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
                 </p> 
             </div>
-            <div class="records col-3 " id="records__awards"> 
+            <div class="records col-4 " id="records__awards"> 
                 <h1> 246</h1>
                 <h2> Professional Awards</h2>
                 <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
                 </p> 
             </div>
         </div>
+        
         <div class="row">
-            <div class="slogan col-6"> 
+            <div class="slogan col-6 offset-3"> 
                 <h2 class="slogan__header"> The Best Way to Create Business Site - Attractive One Page</h2>
                 <h3 class="slogan__text"> Discover elegant solution for your buisness fast? reliable, affordable</h3>
             </div>
         </div>
+        
         <div class="row">
-            <div class="col-6">
-                <span class='slogan__image'><img src="assets/img/bizPic.png" alr="mobile devices" /> </span>
+            <div class="col-12">
+                <div class='slogan__image'><img src="assets/img/bizPic.png" alt="mobile devices" /> </div>
             </div>
         </div>
         </div>
     </section>
     
-    <section class="theard_page">
+    <section class="pref_section">
+        <div class="container">
+            <!-- TODO - проблема с белыми областями перекрывающими фоновую деревяшку
+            <div class="row">    
+                <div class="pref_section__white_border col-12">
+                    <img src="assets/img/line7Bg_white_area.png" alt="mobile devices" /> 
+                </div>
+            </div>
+            -->
+            <div class="row">
+                    <div class="type_site col-4">
+                        <img src="assets/img/icon_box/fresh_design.png" alt="mobile devices" /> 
+                        <h2> Fresh & Clean Design</h2>
+                        <h3> Nulla consectetur ornare nibh, a auctor mauris scelerisque eu proin nec urna quis justo adipiscing auctor ut auctor. feugiat</h3>
+                    </div>
+                    <div class="type_site col-4">
+                        <img src="assets/img/icon_box/very_flexible.png" alt="mobile devices" /> 
+                        <h2> Very Flexible</h2>
+                        <h3> Nulla consectetur ornare nibh, a auctor mauris scelerisque eu proin nec urna quis justo adipiscing auctor ut auctor. feugiat</h3>
+                    </div>
+                    <div class="type_site col-4">
+                        <img src="assets/img/icon_box/FullResponsive.png" alt="mobile devices" /> 
+                        <h2> Full Responsive</h2>
+                        <h3> Nulla consectetur ornare nibh, a auctor mauris scelerisque eu proin nec urna quis justo adipiscing auctor ut auctor. feugiat</h3>
+                    </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="team_section">
         <div class="container">
             <div class="row">
-                
+                <div class="team__header col-12">
+                    <h1>Who We Are? Meet Our Team! </h1>
+                    <h3>We listen, we discuss, we advise and develop. We love to learn and use the latest technologies. </h3>
+                </div>
+            </div>
+            <div class="row">
+                     <div class="team_section_person col-4">
+                        <img src="assets/img/picTeam/picT1.png" alt="" /> 
+                        <h2> Tom Simpson</h2>
+                        <h3> ceo</h3> 
+                        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit quisque tempus ac eget diam et laoreet phasellus ut nisi id leo molestie. adipiscing vitae vel quam proin eget mauris eget.</p>
+                    </div>
+                    <div class="team_section_person col-4">
+                        <img src="assets/img/picTeam/picT2.png" alt="" /> 
+                        <h2> John Doe</h2>
+                        <h3> Project Manager</h3> 
+                        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit quisque tempus ac eget diam et laoreet phasellus ut nisi id leo molestie. adipiscing vitae vel quam proin eget mauris eget.</p>
+                    </div>
+                    <div class="team_section_person col-4">
+                        <img src="assets/img/picTeam/picT3.png" alt="" /> 
+                        <h2> Anna White</h2>
+                        <h3> Developer</h3> 
+                        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit quisque tempus ac eget diam et laoreet phasellus ut nisi id leo molestie. adipiscing vitae vel quam proin eget mauris eget.</p>
+                    </div>
+            </div>
+            <div class="row">
+                <div class="team__divider col-12">
+                    <img src="assets/img/picTeam/line_between.png" alt="" /> 
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="team_section_expert col-3">
+                        <img src="assets/img/picTeam/word_press.png" alt="" /> 
+                        <h2> WordPress</h2>
+                        <p> Nulla consectetur ornare nibh, a auctor mauris scelerisque eu proin nec urna quis. </p>
+                </div>
+                <div class="team_section_expert col-3">
+                        <img src="assets/img/picTeam/html.png" alt="" /> 
+                        <h2> html5</h2>
+                        <p> Nulla consectetur ornare nibh, a auctor mauris scelerisque eu proin nec urna quis. </p>
+                </div>
+                <div class="team_section_expert col-3">
+                        <img src="assets/img/picTeam/css3.png" alt="" /> 
+                        <h2> css3</h2>
+                        <p> Nulla consectetur ornare nibh, a auctor mauris scelerisque eu proin nec urna quis. </p>
+                </div>
+                <div class="team_section_expert col-3">
+                        <img src="assets/img/picTeam/woocommerce.png" alt="" /> 
+                        <h2> Woocommerce</h2>
+                        <p> Nulla consectetur ornare nibh, a auctor mauris scelerisque eu proin nec urna quis. </p>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="about_us_header col-12">
+                    <h2> What Our Customers Say About Us? </h2>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="about_us_left col-6" >
+                    <p class="about_us_left_comment col-10">Anna Smith, Company Inc.
+Nulla consectetur ornare nibh, a auctor mauris scelerisque eu proin nec urna quis justo adipiscing auctor ut auctor feugiat fermentum quisque eget pharetra, felis et venenatis. aliquam, nulla nisi lobortis elit ac.</p>
+                    <img src="assets/img/picAbout/aboutP1.png" alt=""   class="about_us_left_foto col-2 offset-11" />
+                </div>
+            
             </div>
         </div>
-    
     </section>
+    
+    
+            
     
     
     <article>

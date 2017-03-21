@@ -4,13 +4,12 @@
 }
 
 .container{
-    width: 960;
+    width: 960px;
     margin: auto;
 }
 
 .row {
     width: 100%;
-    float: left;
     text-align: justify;
 }
 
@@ -19,11 +18,11 @@
      height: 0;
      display: block;
      visibility: hidden;
-     width: 100%
+     width: 100%;
      clear: both;
      }
 
-//[160.0, 320.0, 480.0, 640.0, 800.0, 960.0, 1120.0, 1280.0, 1440.0, 1600.0, 1760.0]
+/*//[160.0, 320.0, 480.0, 640.0, 800.0, 960.0, 1120.0, 1280.0, 1440.0, 1600.0, 1760.0]*/
 .col-1,
 .col-2,
 .col-3,

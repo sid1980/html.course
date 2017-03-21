@@ -2,6 +2,11 @@
     margin: 0px;
     border: 0px;
 }
+
+
+body{
+    font-family: 'Roboto', 'sans-serif'; 
+}
 header{
     height: 640px;
     background-image: url("../img/bgTop.jpg");
@@ -17,18 +22,20 @@ header{
 }
 
 .header__title{
-    margin-top: 263px;
+    margin-top: 110px;
     font-size: 2em;
     color: #fff;
 }
 .records{
     display: inline-block;
     margin-bottom: 30px;
+    text-align: center;
+    padding: 0 15px;
 }
 
 .slogan{
     display: inline-block;   
-    // width: auto;
+    /*  width: auto;*/
     text-align: center;
     float: none;
 }
@@ -38,7 +45,71 @@ header{
     text-align: center;
 }
 
-span.slogan__image{
+div.slogan__image{
     text-align: center;
     float: none;
+}
+
+.pref_section{
+    height: 508px; /* 1800-1292 */
+    background-image: url("../img/line7Bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+}
+.pref_section__white_border{
+    height: 508px; 
+    float: none;
+    display: inline;
+}
+
+.type_site{
+    font-size: 1em;
+    font-family: "Roboto";
+    color: rgb(255, 255, 255); 
+    text-align: center;
+    /*1476 - 1292(верхняя граница секции)*/
+    margin-top: 184px;
+}
+    .type_site h2{
+        font-family: "Roboto-Light", sans-serif;
+        font-weight: 200;
+        font-size: 2em;
+    }
+    .type_site h3{
+        font-family: "Roboto-Light", sans-serif;
+        font-weight: 400;
+    }
+
+.team_section{
+    text-align: center;
+    font-family: "Roboto-Light", sans-serif;
+    }
+    .team__header{
+        text-align: center;
+        font-family: "Roboto-Light", sans-serif;
+        font-weight: 200;
+        margin-top: 36px;
+    }
+    .team_section_person{
+        text-align: center;
+        margin-top: 60px;
+    }
+    .team__divider{margin-top: 48px;}
+    .team_section_expert{
+        text-align: center;
+        margin-top: 48px;}
+    .about_us_header{
+        text-align: center;
+        margin-top: 72px;}
+
+/* проблема позиционирования фотки */
+.about_us_left {
+    text-align: right;
+    margin-top: 48px;
+    float: left;
+    }
+.about_us_left_foto{
+    float: left;
+    display: inline-block;
 }
