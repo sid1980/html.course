@@ -51,16 +51,18 @@ div.slogan__image{
 }
 
 .pref_section{
-    height: 508px; /* 1800-1292 */
+    height: 496px; /* 1800-1292 */
     background-image: url("../img/line7Bg.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size:cover;
 }
-.pref_section__white_border{
-    height: 508px; 
-    float: none;
-    display: inline;
+.pref_section_mask{
+    height: 496px; 
+    background-image: url("../img/line7Bg_white_area.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
 }
 
 .type_site{
@@ -69,16 +71,19 @@ div.slogan__image{
     color: rgb(255, 255, 255); 
     text-align: center;
     /*1476 - 1292(верхняя граница секции)*/
-    margin-top: 184px;
+    margin-top: 159px;
 }
     .type_site h2{
         font-family: "Roboto-Light", sans-serif;
         font-weight: 200;
-        font-size: 2em;
+        font-size: 20px;
+        margin-top: 20px;
     }
     .type_site h3{
         font-family: "Roboto-Light", sans-serif;
         font-weight: 400;
+        font-size: 13px;
+        margin-top: 20px;
     }
 
 .team_section{
@@ -103,13 +108,62 @@ div.slogan__image{
         text-align: center;
         margin-top: 72px;}
 
-/* проблема позиционирования фотки */
+.about_us_bg{
+    height: 320px; /* 1800-1292 */
+    background-image: url("../img/horL.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:contain;
+}
 .about_us_left {
     text-align: right;
     margin-top: 48px;
     float: left;
-    }
+}
+.about_us_left h3{ font-size: 16px; }
+.about_us_left p{ font-size: 13px; margin-top: 13px;}
 .about_us_left_foto{
-    float: left;
-    display: inline-block;
+    float: right;
+    margin-right: 15px; }
+
+about_us_right {
+    text-align: left;
+    margin-top: 48px;
+    display: block;
+    float: right;
+}
+.about_us_right_comment{float: right; margin-top: 48px;}
+.about_us_right h3{ font-size: 16px; }
+.about_us_right p{ font-size: 13px; margin-top: 13px;}
+.about_us_right_foto{
+    margin-top: 48px;
+    margin-left: 15px;
+    float:left;  }
+
+.our_work_section{
+    height: 366px; /* 1800-1292 */
+    background-image: url("../img/line7Bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+}
+.our_work{
+    color: #fff;
+    text-align: center;
+    font-weight: 400;
+}
+.our_work h1{
+    font-size: 42px;
+    font-weight: 400;
+    padding-top: 130px;}
+    
+.our_work h3{font-size: 16px;font-weight: 400;}
+
+.our_work_section__white{
+    height: 366px; 
+    /* height: 508px;  1800-1292 */
+    background-image: url("../img/line7Bg_white_area.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
 }
