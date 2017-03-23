@@ -1,0 +1,26 @@
+@font-face { 
+    /*
+    font-family: "Roboto-Light; 
+    src: url("../font/Roboto-Light.ttf");
+    
+    - вопрос зачем столько шрифтов 
+    font-family: "Roboto-Light";
+    src: url("Roboto-Light?#iefix") format("embedded-opentype"), url("font/Roboto-Light.ttf") format("woff"), url("font/Roboto-Light.ttf") 
+	format("truetype"), url("fonts/bebasneue.svg#svgBebasNeue") format("svg");
+    */
+    font-family: "Roboto-Light";
+    src: url("font/Roboto-Light.ttf") format("truetype");
+    
+    font-family: Roboto-Bold; 
+    src: url("../font/Roboto-Bold.ttf");
+    font-family: Roboto-Black; 
+    src: url("../font/Roboto-Black.ttf");
+    font-family: Roboto-Regular; 
+    src: url("../font/Roboto-Regular.ttf");
+    
+    font-family: OpenSans-Bold; 
+    src: url("../font/OpenSans-Bold.ttf");
+    
+    font-family: fontawesome; 
+    src: url("../font/fontawesome-webfont.ttf");
+}
