@@ -1,0 +1,32 @@
+/*
+active_color = #1fcdff
+    shd = #179abf
+normal_coor = #2f2f2f 
+   shadow = #000
+*/
+.button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 14px;
+  font-family: Roboto-Black, Verdana, sans-serif;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #2f2f2f;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 4px #000;
+  width: 215px;
+  height: 48px;
+}
+
+.button:hover {background-color: #1fcdff;
+box-shadow: #179abf;}
+
+.button:active {
+  background-color: #1fcdff;
+  box-shadow: 0 4px #179abf;
+  transform: translateY(2px);
+}
