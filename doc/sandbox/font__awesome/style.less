@@ -1,0 +1,37 @@
+// out: css/style.css
+
+@import "roboto.less";
+@import "awesome.less";
+
+@font_color: orange;
+
+body{
+    color: @font_color;
+    font-size: 14px;
+    }
+
+header{
+    h1{
+        font-size: 4em;
+        font: normal normal normal 4em/1 FontAwesome;
+    }
+
+    #uppercase {
+        font-size: 4em;
+        text-transform: uppercase;}
+    #lowercase {
+        font-size: 3em;
+        text-transform: lowercase;}
+    #capitalize {
+        font-size: 2em;
+        text-transform: capitalize;}
+
+    h3{text-transform: capitalize; }
+    }
+
+footer{
+    font-family: Roboto;
+    font: Roboto-Bold;
+    font-weight: 400;
+    font-size: 4em;
+}
