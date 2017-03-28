@@ -1,0 +1,211 @@
+*{
+    margin: 0px;
+    border: 0px;
+}
+
+
+body{
+    font-family: 'Roboto', 'sans-serif'; 
+    font: 10px;
+}
+header{
+    height: 640px;
+    background-image: url("../img/bgTop.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+}
+
+.header__logo {
+    float: left;
+    margin-top: 64px;
+    font-size: 5em;
+}
+
+.header__title{
+    margin-top: 110px;
+    font-size: 2em;
+    color: #fff;
+}
+.records{
+    display: inline-block;
+    margin-bottom: 30px;
+    text-align: center;
+    padding: 0 15px;
+}
+
+.slogan{
+    display: inline-block;   
+    /*  width: auto;*/
+    text-align: center;
+    float: none;
+}
+
+.slogan__header, 
+.slogan__text {
+    text-align: center;
+}
+
+div.slogan__image{
+    text-align: center;
+    float: none;
+}
+
+.pref_section{
+    height: 496px; /* 1800-1292 */
+    background-image: url("../img/line7Bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+}
+.pref_section_mask{
+    height: 496px; 
+    background-image: url("../img/line7Bg_white_area.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+}
+
+.type_site{
+    font-size: 1em;
+    font-family: "Roboto";
+    color: rgb(255, 255, 255); 
+    text-align: center;
+    /*1476 - 1292(верхняя граница секции)*/
+    margin-top: 159px;
+}
+    .type_site h2{
+        font-family: "Roboto-Light", sans-serif;
+        font-weight: 200;
+        font-size: 20px;
+        margin-top: 20px;
+    }
+    .type_site h3{
+        font-family: "Roboto-Light", sans-serif;
+        font-weight: 400;
+        font-size: 13px;
+        margin-top: 20px;
+    }
+
+.team_section{
+    text-align: center;
+    font-family: "Roboto-Light", sans-serif;
+    }
+    .team__header{
+        text-align: center;
+        font-family: "Roboto-Light", sans-serif;
+        font-weight: 200;
+        margin-top: 36px;
+    }
+    .team_section_person{
+        text-align: center;
+        margin-top: 60px;
+    }
+    .team__divider{margin-top: 48px;}
+    .team_section_expert{
+        text-align: center;
+        margin-top: 48px;}
+    .about_us_header{
+        text-align: center;
+        margin-top: 72px;}
+
+.about_us_bg{
+    height: 320px; /* 1800-1292 */
+    background-image: url("../img/horL.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:contain;
+}
+.about_us_left {
+    text-align: right;
+    margin-top: 48px;
+    float: left;
+}
+.about_us_left h3{ font-size: 16px; }
+.about_us_left p{ font-size: 13px; margin-top: 13px;}
+.about_us_left_foto{
+    float: right;
+    margin-right: 15px; }
+
+about_us_right {
+    text-align: left;
+    margin-top: 48px;
+    display: block;
+    float: right;
+}
+.about_us_right_comment{float: right; margin-top: 48px;}
+.about_us_right h3{ font-size: 16px; }
+.about_us_right p{ font-size: 13px; margin-top: 13px;}
+.about_us_right_foto{
+    margin-top: 48px;
+    margin-left: 15px;
+    float:left;  }
+
+.heading{
+    height: 366px; /* 1800-1292 */
+    background-image: url("../img/line7Bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+}
+.our_work{
+    color: #fff;
+    text-align: center;
+    font-weight: 400;
+}
+.our_work h1{
+    font-size: 42px;
+    font-weight: 400;
+    padding-top: 130px;}
+    
+.our_work h3{font-size: 16px;font-weight: 400;}
+
+.filter{
+    background-color: yellow;
+    height: 4rem;
+    padding: 1.5rem;
+}
+
+.works{
+    background-color: blue;
+    height: 108.5rem;
+    padding: 1.5rem;
+}
+
+.btns{
+    background-color: yellowgreen;
+    height: 4rem;
+    padding: 1.5rem;
+}
+
+.btns_load_more{
+    background-color: dimgrey;
+    height: 4rem;
+    padding: 1.5rem;
+}
+
+
+.posts{
+    background-color: burlywood;
+    height: 173.5rem;
+    padding: 1.5rem;
+}
+
+@media screen and (max-width: 480px)
+{
+  .container{
+    width: 320px;
+    margin: auto;}  
+   
+    .col-1,
+    .col-2,
+    .col-3,
+    .col-4,
+    .col-5,
+    .col-6,
+    .col-7,
+    .col-8,
+    .col-9,
+    .col-10,
+    .col-11 {float: left; width: 50px;}   
+}

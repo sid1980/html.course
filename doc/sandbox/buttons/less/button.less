@@ -1,0 +1,37 @@
+// out: ../css/style.css
+
+@active_color: #1fcdff;
+@shd:#179abf;
+@normal_coor: #2f2f2f;
+@shadow: #000;
+@text_color: #fff;
+ 
+button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 14px;
+  font-family: Roboto-Black, Verdana, sans-serif;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: @text_color;
+  background-color: @normal_coor;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 4px @shadow;
+  width: 215px;
+  height: 48px;
+    &:hover {
+      background-color: @active_color;
+      box-shadow: @shd;
+    }
+    &:active{
+        background-color: @active_color;
+        box-shadow: 0 4px @shd;
+        transform: translateY(2px);
+    }
+    &::before{
+        content: ".";
+    }
+}

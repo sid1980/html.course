@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-    <title> HTML Home Task</title>
-    <link rel="stylesheet" type="text/css"  href="assets/css/fonts.css">
+    <link rel="stylesheet" type="text/css"  href="assets/css/roboto.css">
+    <link rel="stylesheet" type="text/css"  href="assets/css/awesome.css">
     <link rel="stylesheet" type="text/css"  href="assets/css/normalize.css">
     <link rel="stylesheet" type="text/css"  href="assets/css/grid_12.css">
     <link rel="stylesheet" type="text/css"  href="assets/css/style.css">
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title> HTML Home Task</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" >
 </head>
 <body>
     <header> 
@@ -16,23 +17,54 @@
                 <div class="header__logo col-2 offset-2">
                     <img src='assets/img/logo.png' alt="Logo ">
                 </div>
-                <div class="header__menu col-3 offset-5">
-                    <ul>
-                        <li>home</li>
-                        <li>about</li>
-                        <li>projects</li>
-                        <li>news</li>
-                        <li>contact</li>
+                <div class="header__menu col-3 offset-2">
+                    <ul class="menu level level-1">
+                        <li class="item-level-1"><a href="#">home</a>
+                            <ul class="level level-2">
+                                <li><a href="#">home__item1</a></li>
+                                <li><a href="#">home__item2</a></li>
+                                <li><a href="#">home__item3</a></li>
+                                <li><a href="#">home__item3</a></li>
+                                <li><a href="#">home__item3</a></li>
+                                <li><a href="#">home__item3</a></li>
+                            </ul>
+                        </li>
+                        <li class="item-level-1"><a href="#">about</a></li>
+                        <li class="item-level-1"><a href="#">projects</a>
+                            <ul class="level level-2">
+                                <li><a href="#">home__item1</a></li>
+                                <li><a href="#">home__item2</a></li>
+                                <li><a href="#">home__item3</a></li>
+                                <li><a href="#">home__item3</a></li>
+                                <li><a href="#">home__item3</a></li>
+                                <li><a href="#">home__item3</a></li>
+                                <li><a href="#">home__item3</a></li>
+                                <li><a href="#">home__item3</a></li>
+                                <li><a href="#">home__item3</a></li>
+                                <li><a href="#">home__item3</a></li>
+                                <li><a href="#">home__item3</a></li>
+                            </ul>
+                        </li>
+                        <li class="item-level-1"><a href="#">news</a></li>
+                        <li class="item-level-1"><a href="#">contact</a>
+                            <ul class="level level-2">
+                                <li><a href="#">contact__item1</a></li>
+                                <li><a href="#">contact__item2</a></li>
+                                <li><a href="#">contact__item3</a></li>
+                                <li><a href="#">contact__item3</a></li>
+                                <li><a href="#">contact__item3</a></li>
+                                <li><a href="#">contact__item3</a></li>
+                                <li><a href="#">contact__item3</a></li>
+                                <li><a href="#">contact__item3</a></li>
+                            </ul>
+                        </li>
                     </ul>
                 </div>
+                
+                
                 <div class="row">
                     <div class="header__title col-4 offset-2">
                         <h1> We develop.</h1>
-                    </div>
-                    <div>
-                        <!--
-                        <img src='assets/img/footer_black.png' class="header_back">
-                        -->
                     </div>
                 </div>
             </div>
@@ -201,8 +233,57 @@
         </div>
     </section>
     
-    <section class="our_work_section">
-        <div class="our_work_section__white">
+    <!-- heading -->
+    <section class="heading">
+        <div class="heading__section_mask">
+            <div class="container">
+                <div class="row">
+                    <div class="our_work col-12">
+                        <h1> Our Amazing Works</h1>
+                        <h3> Right here we've got something you gonna love</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="filter">
+        <div class="row centerDiv">
+            <button class="button btn_filter"> All Works</button>
+            <button class="button btn_filter"> Polygraphy</button>
+            <button class="button btn_filter"> Branding </button>
+            <button class="button btn_filter"> Web UI </button>
+            <button class="button btn_filter"> Text Styles </button>
+        </div>
+    </section>
+    
+    <section class="works"> </section>
+    
+    <section class="btns">
+        <div class="row centerDiv">
+            <button class="button btn_load"> Load More Projects </button>
+            <button class="button btn_load"> Buy on Theme forest </button>
+        </div>
+    </section>
+    
+    <section class="heading">
+        <div class="heading__section_mask">
+            <div class="container">
+                <div class="row">
+                        <div class="our_work col-12">
+                            <h1> What's New?</h1>
+                            <h3> Get the latest news from our blog</h3>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="posts"> </section>
+    <section class="btns_load_more"> </section>
+    
+    <section class="heading">
+        <div class="heading__section_mask">
             <div class="container">
                 <div class="row">
                         <div class="our_work col-12">
@@ -213,7 +294,6 @@
             </div>
         </div>
     </section>
-    
             
     
     

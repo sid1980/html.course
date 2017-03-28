@@ -1,0 +1,149 @@
+// out: ../css/style.css
+@background: #fff;
+
+*{
+    margin: 0px;
+    border: 0px;
+}
+
+
+body{
+    font-family: 'Roboto', 'sans-serif'; 
+    font: 10px;
+}
+@import url("header.less");
+@import url("pref_section.less");
+@import url("team_section.less");
+/* заголовок в форме деревянной плитки */
+@import url("heading_section.less");
+@import url("button.less");
+
+.centerDiv{
+        width: 900px;
+        margin:0 auto;
+        padding:10px;
+    }
+
+.filter{
+    background-color: @background;
+    height: 4rem;
+     /* padding: 1.5rem; */
+    .btn_filter{
+        width: 150px;
+        height: 42px;
+        margin-top: 0;
+        margin-left: auto;
+        text-transform: uppercase;
+        font: "Roboto Bold";
+        /* font-size: 13rem; */
+        }
+    }
+
+.works{
+    background-color: blue;
+    height: 108.5rem;
+    padding: 1.5rem;
+}
+
+.btns{
+    background-color: yellowgreen;
+    height: 4rem;
+    margin: 0;
+    /* padding: 1.5rem; */
+    .btn_load{
+       width: 300px;
+       height: 42px;
+       text-transform: uppercase;
+       font: "Roboto Bold";
+       font-size: 14px;
+    }
+}
+
+.btns_load_more{
+    background-color: dimgrey;
+    height: 4rem;
+    padding: 1.5rem;
+    
+}
+
+.posts{
+    background-color: burlywood;
+    height: 173.5rem;
+    padding: 1.5rem;
+}
+
+
+.header__menu {
+    margin-top: 135px;
+}
+.menu{
+    font-family:  Arial, sans-serif;
+    font: 'Arial';
+    float: left;
+    font-size: 1.1em;
+    position: relative;
+    display: table; 
+    width: 100%;
+    
+    }
+
+.menu ul{
+    position: absolute;
+    z-index: 5;
+    display: none;
+}
+
+.menu li:hover ul{ 
+          display: block;
+        }
+.menu li {
+          display:table-cell;
+          text-align: center;
+        }
+.menu ul li{
+    display: block;
+    text-align: center;
+}
+
+.header__menu ul li + li:before{
+    content:"|"}
+.header__menu a:link, .header__menu a:visited{
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+    padding: 0 20px;
+    }
+.header__menu a:hover{
+    color: #23c0ee;
+    }
+
+
+
+
+
+/*
+@media only screen and (max-width: 480px) {
+    .centerDiv{
+        width: 200px;}
+}
+*/
+/*
+@media screen and (max-width: 480px)
+{
+  .container{
+    width: 320px;
+    margin: auto;}  
+   
+    .col-1,
+    .col-2,
+    .col-3,
+    .col-4,
+    .col-5,
+    .col-6,
+    .col-7,
+    .col-8,
+    .col-9,
+    .col-10,
+    .col-11 {float: left; width: 50px;}   
+}
+*/
